@@ -77,6 +77,7 @@ div.conContent {
 .images-logo img:last-child {
     width: 380px;
     padding:  3px 0 3px 3px;
+    margin-left: 50px;
 }
 
 div.text-header {
@@ -829,7 +830,10 @@ body.modal-open .modal-backdrop {
     }
 }
 
-@media screen and (max-width: 468px) {
+@media screen and (max-width: 375px) {
+    .images-logo img:last-child {
+        margin-left: 0;
+    }
 }
 
 * {
